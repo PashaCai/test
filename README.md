@@ -1,21 +1,168 @@
-### 艺术、设计与媒体学院（ADM）- 研究生招生教师研究领域 - 2022-2023学年  
+、import { Card, CardContent } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { Carousel, CarouselContent, CarouselItem } from "@/components/ui/carousel";
 
-| 教师姓名 | 指导硕士/博士 | 研究领域 | 文化与身份 | 文化与遗产 | 数字人文 | 东南亚艺术、电影与媒体 | 生产文化 | 移动影像 | 视觉与声音 | 艺术与公共空间（含艺术与科技） | 设计研究 | 其他 |  
-|---------|-------------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|  
-| Andree Narell | 指导硕士与博士研究生 | 增强动画、人工智能、艺术与科技中的程序性映射（如：Maya、ZBrush、Cinema 4D、TouchDesigner）<br>印度、巴基斯坦、孟加拉的宝莱坞、旁遮普电影、音乐视频研究<br>艺术与科技对文化身份的影响：数字游民、侨民叙事（如：阿联酋、澳大利亚）<br>知识聚合 | Yes | - | - | - | - | - | - | - | - | - |  
-| Benjamin Seide | 仅指导硕士研究生 | - 虚拟文化技术：探索虚拟/混合现实技术对推广文化遗产的作用<br>- 沉浸式技术：360°视频体验、3D 体绘制、联合项目与动态数字艺术 | - | Yes | Yes | - | Yes | Yes | - | - | - | - |  
-| Benjamin Slater | 仅指导硕士研究生 | 电影与动画的视觉效果与动画研究，及其作为电影制作中审美与叙事媒介的作用<br>电影研究、电影史、电影批评、新加坡电影、策展、叙事、互动叙事、表演 | Yes | Yes | - | - | Yes | - | - | - | - | - |  
-| Carole Ng Ee Ching | 仅指导硕士研究生 | 视觉传达设计实践、图像设计、图形设计、平面设计、设计实践 | - | - | - | - | - | - | - | - | - | Yes |  
-| Cindy Wang Huishan | 指导硕士与博士研究生 | 1. 中国审美在视觉传播与当代摄影中的设计理论与实践<br>2. 促进国际交流与跨文化互动的视觉传播文化研究<br>3. 印刷技术与进一步激发艺术作品视觉表达及视觉传播方式的研究<br>4. 设计思维与品牌 | Yes | - | - | - | - | - | - | - | Yes | - |  
-| Dane Oepta | 指导硕士与博士研究生 | 当代艺术与设计<br>艺术、设计与教育<br>设计理论、设计实践、设计艺术、设计专题<br>设计史与设计哲学<br>展览设计研究<br>（通过设计历史、公民探索实践进行研究）<br>数字/视觉传播 | Yes | Yes | Yes | - | - | - | - | Yes | Yes | - |  
-| Davide Bonaventura | 仅指导硕士研究生 | 文化遗产可视化、动画、视觉叙事、动画史 | - | Yes | - | - | Yes | - | Yes | - | - | - |  
-| Elis Ristad | 指导硕士与博士研究生 | 实验性策展、新加坡策展、当代美学、当代艺术、跨学科研究 | Yes | - | - | Yes | - | Yes | Yes | - | - | - |  
-| Gray Hodgson | 指导硕士与博士研究生 | 叙事媒体创新、数字游戏设计与世界构建、服务游戏与严肃游戏、虚拟现实世界构建、虚拟现实叙事 | - | - | - | - | - | - | Yes | - | - | - |  
-| Hans Martin Rall | 仅指导硕士研究生 | 虚拟现实<br>动画史论<br>动态影像与图形叙事 | - | - | - | - | - | - | - | - | - | - |  
-| Jai Chaitanya | 仅指导硕士研究生 | 人工智能在艺术、新媒体创作、跨媒介空间装置、情感与条件化交互、公共艺术、媒体架构（如动态影像与媒体架构）、生成式数字艺术中的应用 | - | - | Yes | Yes | - | - | Yes | - | - | 生成式人工智能探索 |  
-| Lisa Whatamsky | 仅指导硕士研究生 | 符合道德的设计实践与策略<br>为善意变革而设计：设计宣传<br>设计（思维） | - | - | - | - | - | - | - | - | Yes | 为“向善变革”设计、设计行动主义 |  
-| Marc Gloede | 指导硕士与博士研究生 | - 定制化实践发展<br>- 创造基于时间的媒体<br>- 建筑、城市、生物学、空间与身体的动态界面研究（如建筑、艺术与电影/建筑）<br>- 电影中的色彩感知与应用<br>- 重新思考抽象 | Yes | - | Yes | - | - | Yes | Yes | - | - | - |  
-| Ng Woon Lam | 指导硕士与博士研究生 | 1. 中文书法、中文线绘<br>2. 计算在艺术中的应用（编程能力为必需）<br>3. 计算在艺术中的效率（编程能力为必需）<br>4. 色彩理论——在艺术或科学建模中的实际应用（编程效率为必需） | - | - | - | - | Yes | Yes | - | - | - | 计算在艺术中的应用（编程效率要求）；艺术或科学建模中的色彩理论实际应用（编程效率要求） |  
-| Peer Mohamed Sabir | 指导硕士与博士研究生 | 设计 - 流动性、交通、城市设计、住宅与栖息地<br>通过自然、怀旧、美学、文化遗产与设计本体进行设计文化研究 | - | - | Yes | - | - | - | - | - | Yes | - |  
-| Veronique Ranner | 指导硕士与博士研究生 | 批判设计思维<br>设计与可持续性<br>生物设计与新物质性<br>用户体验设计与共创 | - | Yes | - | - | - | - | - | Yes | - | 批判设计——以关怀为核心的设计，关注对人类、非人类及地球的长期积极影响（涉及日常生活、制造、人类与更多非人类互动） |  
-| Wong Chen-Hsi | 指导硕士与博士研究生 | 盲文书写与排版、新加坡与东南亚电影、独立电影制作 | Yes | - | - | - | - | - | - | - | - | - |
+export default function CourseOverview() {
+  return (
+    <div className="p-6 space-y-6">
+      <h1 className="text-3xl font-bold">课程总览：手机摄影 & 艺术策展</h1>
+      <Tabs defaultValue="photography" className="w-full">
+        <TabsList>
+          <TabsTrigger value="photography">手机摄影方向</TabsTrigger>
+          <TabsTrigger value="curation">艺术策展方向</TabsTrigger>
+        </TabsList>
+
+        <TabsContent value="photography">
+          <Carousel className="w-full">
+            <CarouselContent>
+              <CarouselItem>
+                <Card>
+                  <CardContent className="p-4">
+                    <h2 className="text-xl font-semibold mb-2">教学目标</h2>
+                    <p>引导学生掌握摄影构图与光影表达，培养日常观察力与主题表达能力，完成一套个人摄影系列作品。</p>
+                  </CardContent>
+                </Card>
+              </CarouselItem>
+              <CarouselItem>
+                <Card>
+                  <CardContent className="p-4">
+                    <h2 className="text-xl font-semibold mb-2">课程结构</h2>
+                    <ul className="list-disc pl-5 space-y-1">
+                      <li>第1周：构图基础 & 光影感知</li>
+                      <li>第2周：叙事表达 & 实验性摄影</li>
+                      <li>每节课40分钟，共12节</li>
+                    </ul>
+                  </CardContent>
+                </Card>
+              </CarouselItem>
+              <CarouselItem>
+                <Card>
+                  <CardContent className="p-4">
+                    <h2 className="text-xl font-semibold mb-2">课程进度表</h2>
+                    <ul className="list-disc pl-5 space-y-1">
+                      <li>第1节：手机摄影的可能性（理论）</li>
+                      <li>第2节：走出教室观察拍摄（实践）</li>
+                      <li>第11节：拼贴与叠加摄影实验（实践）</li>
+                      <li>第12节：作品整理与展示（讲评）</li>
+                    </ul>
+                  </CardContent>
+                </Card>
+              </CarouselItem>
+              <CarouselItem>
+                <Card>
+                  <CardContent className="p-4">
+                    <h2 className="text-xl font-semibold mb-2">成果展示样式</h2>
+                    <p>输出摄影集（6–8张）+ 创作说明，可装订成 Zine 或打印为展板式呈现，用于升学作品集。</p>
+                  </CardContent>
+                </Card>
+              </CarouselItem>
+              <CarouselItem>
+                <Card>
+                  <CardContent className="p-4">
+                    <h2 className="text-xl font-semibold mb-2">学生能力发展价值</h2>
+                    <div className="grid grid-cols-2 gap-4">
+                      <div>
+                        <h3 className="font-semibold">手机摄影方向</h3>
+                        <ul className="list-disc pl-5 text-sm space-y-1">
+                          <li><strong>能力培养：</strong>图像观察力、构图、叙事表达</li>
+                          <li><strong>作品集价值：</strong>可转化为“主题摄影系列”展示</li>
+                          <li><strong>升学优势：</strong>展现个人风格与艺术思维</li>
+                          <li><strong>跨领域能力：</strong>融合摄影、写作、拼贴等表达</li>
+                        </ul>
+                      </div>
+                      <div>
+                        <h3 className="font-semibold">艺术策展方向</h3>
+                        <ul className="list-disc pl-5 text-sm space-y-1">
+                          <li><strong>能力培养：</strong>策展逻辑、图形系统、空间理解</li>
+                          <li><strong>作品集价值：</strong>可转化为策展视觉提案展示</li>
+                          <li><strong>升学优势：</strong>展现项目型思维与组织力</li>
+                          <li><strong>跨领域能力：</strong>融合平面设计、叙事与构成规划</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </CardContent>
+                </Card>
+              </CarouselItem>
+            </CarouselContent>
+          </Carousel>
+        </TabsContent>
+
+        <TabsContent value="curation">
+          <Carousel className="w-full">
+            <CarouselContent>
+              <CarouselItem>
+                <Card>
+                  <CardContent className="p-4">
+                    <h2 className="text-xl font-semibold mb-2">教学目标</h2>
+                    <p>培养学生策划能力与展览表达意识，理解展览逻辑与图形系统构建，完成一份策展提案设计。</p>
+                  </CardContent>
+                </Card>
+              </CarouselItem>
+              <CarouselItem>
+                <Card>
+                  <CardContent className="p-4">
+                    <h2 className="text-xl font-semibold mb-2">课程结构</h2>
+                    <ul className="list-disc pl-5 space-y-1">
+                      <li>第1周：策展概念 & 视觉语言</li>
+                      <li>第2周：展览系统设计 & 空间模拟</li>
+                      <li>每节课40分钟，共12节</li>
+                    </ul>
+                  </CardContent>
+                </Card>
+              </CarouselItem>
+              <CarouselItem>
+                <Card>
+                  <CardContent className="p-4">
+                    <h2 className="text-xl font-semibold mb-2">课程进度表</h2>
+                    <ul className="list-disc pl-5 space-y-1">
+                      <li>第1节：什么是策展（理论）</li>
+                      <li>第2节：关键词与Moodboard制作（实践）</li>
+                      <li>第10节：展览邀请函与导视系统设计</li>
+                      <li>第12节：策展成果路演与总结</li>
+                    </ul>
+                  </CardContent>
+                </Card>
+              </CarouselItem>
+              <CarouselItem>
+                <Card>
+                  <CardContent className="p-4">
+                    <h2 className="text-xl font-semibold mb-2">成果展示样式</h2>
+                    <p>输出策展视觉提案，包含主视觉、导视图、空间草图与展览图录页面，可用于升学设计作品集。</p>
+                  </CardContent>
+                </Card>
+              </CarouselItem>
+              <CarouselItem>
+                <Card>
+                  <CardContent className="p-4">
+                    <h2 className="text-xl font-semibold mb-2">学生能力发展价值</h2>
+                    <div className="grid grid-cols-2 gap-4">
+                      <div>
+                        <h3 className="font-semibold">手机摄影方向</h3>
+                        <ul className="list-disc pl-5 text-sm space-y-1">
+                          <li><strong>能力培养：</strong>图像观察力、构图、叙事表达</li>
+                          <li><strong>作品集价值：</strong>可转化为“主题摄影系列”展示</li>
+                          <li><strong>升学优势：</strong>展现个人风格与艺术思维</li>
+                          <li><strong>跨领域能力：</strong>融合摄影、写作、拼贴等表达</li>
+                        </ul>
+                      </div>
+                      <div>
+                        <h3 className="font-semibold">艺术策展方向</h3>
+                        <ul className="list-disc pl-5 text-sm space-y-1">
+                          <li><strong>能力培养：</strong>策展逻辑、图形系统、空间理解</li>
+                          <li><strong>作品集价值：</strong>可转化为策展视觉提案展示</li>
+                          <li><strong>升学优势：</strong>展现项目型思维与组织力</li>
+                          <li><strong>跨领域能力：</strong>融合平面设计、叙事与构成规划</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </CardContent>
+                </Card>
+              </CarouselItem>
+            </CarouselContent>
+          </Carousel>
+        </TabsContent>
+      </Tabs>
+    </div>
+  );
+}
